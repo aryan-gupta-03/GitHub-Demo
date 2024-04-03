@@ -35,7 +35,7 @@ jobs:
     - name : Build docker image and push to docker hub
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: hamzabharmal/github_action_demo
+        image: aryanme/aryan
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
